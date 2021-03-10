@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState} from "react"
 
 import FormTrips from "./formTrips";
 import ListTrips from "./listTrips";
