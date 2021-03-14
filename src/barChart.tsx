@@ -33,7 +33,7 @@ const BarChart = (props:{trips:any}) => {
                     ],
                     borderWidth: 1
                 }]}}
-            height={1000}
+            height={500}
             width={1000}
             options= {{ scales:{
                     yAxes: [{

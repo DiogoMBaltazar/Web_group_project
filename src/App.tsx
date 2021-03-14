@@ -12,8 +12,10 @@ interface Trip {car:string, to:string, duration:number}
 interface Car {car:string, driver:string}
 
 function Header() {
-    return <header> <img src="NovaSbeLogo.jpg" height="50px"  />Trips Dashboard </header>
+    return <header> Trips Dashboard </header>
 }
+
+{/* <img src="NovaSbeLogo.jpg" height="50px"  /> */}
 
 function Footer() {
     return (
@@ -31,7 +33,7 @@ function Footer() {
                     </div>
 
                     <div className="col-sm-6 col-md-3 item">
-                        <h3>Find our repo at </h3>
+                        <h3>Find our repo at: </h3>
                         <ul>
                             <li><a href="https://github.com/DiogoMBaltazar/Web-Cloud-Computing-Final-Project" target='_blank'>Github</a></li>
                         </ul>

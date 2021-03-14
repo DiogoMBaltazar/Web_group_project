@@ -13,7 +13,7 @@ const CarChart = (props:{trips:any}) => {
             data= {{
                 labels: uniqueCars,
                 datasets: [{
-                    label: 'Trip Destination',
+                    label: 'Car Usage',
                     data: result,
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
@@ -33,7 +33,7 @@ const CarChart = (props:{trips:any}) => {
                     ],
                     borderWidth: 1
                 }]}}
-            height={1000}
+            height={500}
             width={1000}
             options= {{ scales:{
                     yAxes: [{
